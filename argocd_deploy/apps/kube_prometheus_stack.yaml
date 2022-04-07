@@ -4,7 +4,7 @@ kind: Application
 metadata:
   name: kube-prometheus-stack
   namespace: argocd
-  #  annotations:
+  annotations:
   #    notifications.argoproj.io/subscribe.mytrigger.discord: ""
   #    notifications.argoproj.io/subscribe.on-sync-succeeded.webhook-site: "webhook-site-notification"
 spec:
